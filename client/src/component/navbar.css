@@ -1,0 +1,18 @@
+/* User Icon Styling */
+.user-icon {
+  font-size: 28px;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+.user-icon:hover {
+  transform: scale(1.1);
+  color: #007bff;
+  /* Bootstrap primary color */
+}
+
+/* Sidebar Smooth Transition */
+.custom-sidebar .offcanvas {
+  transition: transform 0.5s ease-in-out;
+}
