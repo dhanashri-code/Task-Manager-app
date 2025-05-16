@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getUserDetails } from '../util/GetUser'; // Ensure correct import
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://task-manager-app-yta0.onrender.com";
 // Your backend API
 
 const authHeaders = () => {
