@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const SERVER_URL = "http://localhost:5000"; 
+const SERVER_URL = "https://task-manager-app-yta0.onrender.com"; 
 
 const registerUser = (data) => {
     return axios.post(`${SERVER_URL}/register`, data);
