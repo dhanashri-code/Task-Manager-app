@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getUserDetails } from '../util/GetUser'; // Ensure correct import
 
-const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "https://task-manager-app-yta0.onrender.com";
 
 const authHeaders = () => {
     console.log("User Details:", getUserDetails());
